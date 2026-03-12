@@ -1,16 +1,3 @@
-"""
-Lab 01 — Diseño de Lenguajes de Programación
-
-  1. Calcular nullable, firstpos y lastpos para cada nodo del árbol
-  2. Calcular followpos para cada posición
-  3. Construir los estados del AFD (conjuntos de posiciones)
-  4. Construir la tabla de transiciones
-  5. Identificar estados de aceptación (los que contienen la posición de #)
-
-"""
-
-#python dfa_builder.py --demo 
-
 from parser import Node, get_leaf_positions, parse
 from typing import Dict, Set, List, Tuple, Optional
 from collections import defaultdict

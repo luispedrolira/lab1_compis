@@ -1,20 +1,3 @@
-"""
-Lab 01 — Diseño de Lenguajes de Programación
-Persona 1: Parser y Árbol Sintáctico
-
-Responsabilidades:
-  1. Tokenizar la expresión regular
-  2. Insertar concatenación explícita (·)
-  3. Convertir a notación postfija (Shunting-Yard)
-  4. Construir el árbol sintáctico
-  5. Augmentar con símbolo '#' al final  →  r · #
-  6. Numerar las hojas con posiciones únicas (in-order)
-
-Interfaz para Persona 2:
-  parse(regex)             → (root: Node, hash_position: int)
-  get_leaf_positions(root) → {posición: símbolo}
-"""
-
 import sys
 
 # ─── Constantes ───────────────────────────────────────────────────────────────
