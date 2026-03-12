@@ -1,16 +1,12 @@
 """
 Lab 01 — Diseño de Lenguajes de Programación
-Persona 2: nullable, firstpos, lastpos, followpos y tabla AFD
 
-Responsabilidades:
   1. Calcular nullable, firstpos y lastpos para cada nodo del árbol
   2. Calcular followpos para cada posición
   3. Construir los estados del AFD (conjuntos de posiciones)
   4. Construir la tabla de transiciones
   5. Identificar estados de aceptación (los que contienen la posición de #)
 
-Recibe: Árbol sintáctico de Persona 1 (con hojas numeradas)
-Entrega a Persona 3: tabla de transiciones, estado inicial, estados de aceptación
 """
 
 #python dfa_builder.py --demo 
@@ -461,7 +457,7 @@ def build_dfa_from_regex(regex: str) -> DFA:
 
 # Demo / CLI 
 def _demo():
-    """Ejecuta el pipeline completo con las 3 expresiones del lab."""
+    """pipeline completo con las 3 expresiones"""
     test_cases = [
         ("(a|b)*abb", [
             ("abb", True),    # válida
@@ -484,9 +480,9 @@ def _demo():
     ]
     
     for regex, test_strings in test_cases:
-        print(f"\n{'═'*70}")
+
         print(f"  EXPRESIÓN REGULAR: {regex}")
-        print(f"{'═'*70}")
+
         
         # Construir DFA
         dfa = build_dfa_from_regex(regex)
@@ -505,7 +501,6 @@ def _demo():
 def _interactive():
     """Modo interactivo para probar expresiones personalizadas."""
 
-    print("  PERSONA 2 — Construcción de AFD (Método Directo)")
     print("  Ingresa una expresión regular para construir su AFD")
     print("  Luego puedes probar cadenas (escribe 'salir' para terminar)")
     
