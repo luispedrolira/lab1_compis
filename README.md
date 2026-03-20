@@ -1,13 +1,13 @@
 # Laboratorios 01 & 02 — Diseño de Lenguajes de Programación
 
-*** Mario Rocha - 23501, Luis Pedro Lira - 23669, Oliver Viau - 23544 ***
+Mario Rocha - 23501, Luis Pedro Lira - 23669, Oliver Viau - 23544 
 
 Repositorio compartido para los laboratorios 01 y 02. Ambos comparten base de código porque el Lab 02 es continuación directa del Lab 01.
 
 ### Links del los Videos
 
-- https://youtu.be/FyY4pvIDbAA. *** Lab1 ***
-- https://youtu.be/aMaKFScaeF4. *** Lab2 ***
+- https://youtu.be/FyY4pvIDbAA. Lab1 
+- https://youtu.be/aMaKFScaeF4. Lab2 
 
 ---
 
